@@ -1,0 +1,223 @@
+body {
+    font-family:'Montserrat';
+    font-weight: 400;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+/*h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+} Refactore Created classes for each section title*/
+
+/*h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+} Refactore Created classes for each section title*/
+
+/*h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+} Refactore Created classes for each section title*/
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* Containers*/
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/*Sections*/
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/*Navigation Bar*/
+.navbar {
+    padding: 0 0 4.5rem;
+    
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    /*font-weight: bold; Refactored to h1, h2 section*/
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    /*font-weight: 300; refactored to body*/
+}
+
+/* Title of the page*/
+/* #title {/*
+    /*background-color: #ff4c68; Refactored to the new color Section*/
+    /*font-size: 1.3rem; Not needed, refactored*/
+    /*text-align: left; Refactored to title container-fluid*/
+
+.bigtitle {
+    /*font-weight: 900; Refactored to h1,h2*/
+    font-size: 3.5rem;
+    line-height: 1.5;
+    /*color: white; Refactored to color section*/
+}
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/*Download Buttons*/
+
+.download-button {
+    margin:5% 3% 5% 0;
+}
+
+/*Image of the  header*/
+.title-image {
+    width:60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
+}
+
+/*Feature section*/
+#features {
+    /*padding: 7% 15%; refactored to contaner-fluid*/
+    /*background-color: #fff; refactored to the white section*/
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title {
+    /*font-weight: bold; Refactored to h1,h2*/
+    font-size: 1.5rem;
+}
+/*Icon color and padding*/
+#features i {
+    margin-bottom: 1rem; 
+    color: #ef8172;
+}
+
+/*Hover Icon color*/
+#features i:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+/*Testimonial Section*/
+
+#testimonials {
+    background-color: #ef8172;
+    /*color:#fff; Refactored to the colored Section*/
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    /*font-weight: bold; Refactored to h1,h2*/
+    line-height: 1.5;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*Press Section*/
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+/*.carousel-item {
+    padding: 7% 15%;
+} refactoring to container-fluid*/
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Princing section*/
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-title{
+    font-size: 3rem;
+    /*font-weight: bold; Refactored to h1,h2*/
+    line-height: 1.5; 
+}
+
+.card-title {
+    /*font-weight: bold; refactored to h1,h2*/
+    font-size: 1.5rem; 
+}
+.card-price {
+    font-size: 3rem;
+    /*font-weight: bold; refactored to h1,h2*/
+    line-height: 1.5;
+}
+
+/*Call to Action section*/
+
+ /*#cta {
+    /*background-color: #ff4c68; Refactored to the colored section*/
+    /*padding: 7% 15%; Refactoring to Container-fluid*/
+ 
+/*Footer Section*/
+
+/*footer{
+    padding: 7% 15%;
+} refactoring to container fluid*/
+
+.social-icons{
+    letter-spacing: 10px;
+    padding: 20px 0;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position:static;
+        transform: rotate(0deg);
+    }
+}
